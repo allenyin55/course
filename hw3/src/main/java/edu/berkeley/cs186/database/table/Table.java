@@ -27,7 +27,7 @@ import edu.berkeley.cs186.database.io.PageAllocator.PageIterator;
  *   List<String> fieldNames = Arrays.asList("x", "y");
  *   List<String> fieldTypes = Arrays.asList(Type.intType(), Type.intType());
  *   Schema schema = new Schema(fieldNames, fieldTypes);
- *   Table t = new Table(schema, "t", "t.table");
+ *   Table t = new Table("t", schema, "t.table");
  *
  *   // Insert, get, update, and delete records.
  *   List<DataBox> a = Arrays.asList(new IntDataBox(1), new IntDataBox(2));
