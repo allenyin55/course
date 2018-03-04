@@ -16,7 +16,7 @@ import edu.berkeley.cs186.database.databox.Type;
  *
  *   List<String> fieldNames = Arrays.asList("x", "y");
  *   List<Type> fieldTypes = Arrays.asList(Type.intType(), Type.floatType());
- *   Schema s = new Schema(fieldNames, fieldSize);
+ *   Schema s = new Schema(fieldNames, fieldTypes);
  *
  * represents a table with an int field named "x" and a float field named "y".
  */
